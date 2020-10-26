@@ -61,24 +61,26 @@ Begin by following the steps below:
 
 6. Fill in all **App Details**.
 
-7. Click on **Tabs** under Capabilities.
+7. Check in the FullScreen mode Option in the Advanced section
 
-8. Click **Add** under Personal Tab.
+8. Click on **Tabs** under Capabilities.
 
-9. Fill in the **Name** and choose **a new unique Entity ID**.
+9. Click **Add** under Personal Tab.
 
-10. Fill in the **contentURL and Website URL**.
+10. Fill in the **Name** and choose **a new unique Entity ID**.
+
+11. Fill in the **contentURL and Website URL**.
 
 - **contentUrl**: {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
 - **websiteUrl**: {{siteUrl}}
 
     Example **contentURL**: https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
 
-11. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
+12. Navigate to **Domains and Permissions**. Make sure the valid domains section contains your SharePoint online domain name.
 
     Example: contoso.sharepoint.com
 
-12. Add the following web app **single sign-on** properties:
+13. Add the following web app **single sign-on** properties:
 
      Example:
      **AAD application ID**: 00000003-0000-0ff1-ce00-000000000000
@@ -86,14 +88,14 @@ Begin by following the steps below:
 
     ![Web app single sign-on, with ID and URL.](media/personal-app.png)
 
-13. **Save** these properties and then navigate to **Test and distribute**.
+14. **Save** these properties and then navigate to **Test and distribute**.
 
-14. Install the app to test the application personally.
+15. Install the app to test the application personally.
 
 > [!IMPORTANT]
 > If you aren't using Teams App Studio, you will have to .zip the manifest.JSON file you just created, navigate to the App Store in Teams, and click  **upload custom app** link (at the bottom right of the App Store). This will make the app available to you.
 
-15. Now the app is available as a static tab for you to load and view in Teams.
+16. Now the app is available as a static tab for you to load and view in Teams.
 
 ## Test and view your new static tab
 
